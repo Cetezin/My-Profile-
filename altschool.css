@@ -1,0 +1,182 @@
+body{
+    background-color: rgba(0, 0, 0, 0.39);
+    margin: 0;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(253, 252, 252);
+    min-height: 1000px;
+}
+
+ul{
+    margin-bottom: 0%;
+}
+
+ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #ecc6c6;
+}
+
+.brand{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: rgba(0, 0, 0, 0.986);
+    padding: 8px;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0;
+}
+
+nav .brand img{
+    height: 50px;
+    width: 100px;
+}
+
+.intro-pic{
+    background-image: url("assets/images/port-embankment-dawn-alicante.jpg");
+    padding: 5% 0 5% 0;
+    margin-top: 0;
+}
+
+#name{
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 70px;
+    letter-spacing: 8px;
+    color: #e62727;
+    margin-bottom: 10px;
+    text-shadow: #03030333 1px 1px 6px;
+}
+
+#id_no{
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+}
+
+.content{
+    /* background-color: #e62727; */
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+aside img{
+    height:250px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.blog{
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    padding-left: 20px;
+    padding-top: 20px;
+    background: #efe7da;
+}
+
+article{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.363); */
+    border-radius: 5px;
+    /* padding: 20px; */
+    /* text-align: center; */
+    margin-bottom: 40px;
+}
+
+h3{
+    color: #e62727;
+    font-family: cursive;
+}
+
+p{
+    margin-right: 50px;
+    font-size: medium;
+    margin-left: 50px;
+    line-height: 20px;
+    font-weight: 400 ;
+}
+
+form{
+    background-color: #efe7da;
+    padding: 5%;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+}
+
+form #lastname{
+    margin-left: 100px;
+}
+
+.form{
+    margin: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer p{
+    padding: 30px;
+}
+
+.form span{
+    color: red;
+}
+
+@media(max-width:900px){
+    .container{
+        margin: 0;
+    }
+
+    nav ul{
+        display: inline;
+    }
+
+    #name{
+        line-height: 40px;
+    }
+
+}
+
+@media(max-width:600px){
+    aside{
+        margin-bottom: 10px;
+        width: 60%;
+    }
+    .content{
+        display: block;
+        margin: 5%
+    }
+
+    aside{
+        background-color: white;
+        padding: 5%;
+        padding-right: 20px;
+       border: 1px solid rgba(0,0,0,0.185);
+        box-shadow: #03030333 1px 0.5px 6px 0;
+    }
+
+}
