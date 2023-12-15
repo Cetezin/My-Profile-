@@ -1,6 +1,7 @@
 body{
     background-color: rgba(0, 0, 0, 0.39);
     margin: 0;
+    font-family: 'EB Garamond', serif
 }
 .container{
     margin-left: 10%;
@@ -93,7 +94,7 @@ aside img{
 }
 
 article{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.363); */
     border-radius: 5px;
     /* padding: 20px; */
@@ -127,7 +128,7 @@ form #lastname{
 
 .form{
     margin: 10%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
 footer {
